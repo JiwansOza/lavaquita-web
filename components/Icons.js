@@ -1,0 +1,10 @@
+const S = { fill: 'none', stroke: 'currentColor', strokeLinecap: 'round', strokeLinejoin: 'round' };
+export const Arrow = ({ w = 2.4 }) => (<svg viewBox="0 0 24 24" {...S} strokeWidth={w}><path d="M5 12h14M13 6l6 6-6 6" /></svg>);
+export const Pin = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2"><path d="M12 21s7-6.200 7-11.500A7 7 0 0 0 5 9.500C5 14.800 12 21 12 21z" /><circle cx="12" cy="9.500" r="2.500" /></svg>);
+export const PinSolid = () => (<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 22s7-6.400 7-12A7 7 0 0 0 5 10c0 5.600 7 12 7 12zm0-9.500a2.500 2.500 0 1 1 0-5 2.500 2.500 0 0 1 0 5z" /></svg>);
+export const Clock = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2"><circle cx="12" cy="12" r="8.500" /><path d="M12 7.500V12l3 2" /></svg>);
+export const Phone = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2"><path d="M5 4h4l2 5-2.500 1.500a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" /></svg>);
+export const Heart = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2"><path d="M12 20S4 15 4 9.500a4.200 4.200 0 0 1 8-1.800 4.200 4.200 0 0 1 8 1.800C20 15 12 20 12 20z" /></svg>);
+export const HeartSolid = () => (<svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 21S3 15 3 8.500a5 5 0 0 1 9-3 5 5 0 0 1 9 3C21 15 12 21 12 21z" /></svg>);
+export const Burger = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2.4"><path d="M4 7h16M4 12h16M4 17h16" /></svg>);
+export const Cone = () => (<svg viewBox="0 0 24 24" {...S} strokeWidth="2"><path d="M7.500 11 12 22l4.500-11" /><path d="M6.500 11a5.500 5.500 0 1 1 11 0z" /></svg>);
